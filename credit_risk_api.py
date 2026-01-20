@@ -6,7 +6,8 @@ import pandas as pd
 app = FastAPI(title="Credit Risk Prediction API")
 
 # Load trained pipeline
-model = joblib.load("../model/credit_risk_model.pkl")
+model = joblib.load("model/credit_risk_model.pkl")
+
 
 
 # Input schema (friendly names for API)
